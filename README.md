@@ -2,15 +2,15 @@
 
 PID Logic for craftbeerpi4
 
-If the target Temperature is reached, it will maintain that target temp indefinitely.
+Once the target temperature is reached, it will maintain that target temp indefinitely.
 
 Installation:
-you can install (or clone) it from the GIT Repo. In case of updates, you will find them here first:
+you can install (or clone) it from the GIT Repo. 
 
 sudo pip3 install https://github.com/bluemodena/cbpi4-PIDArduino/archive/main.zip
 Afterwards you will need to activate the plugin:
 
-cbpi add cbpi4-PIDArduino
+sudo cbpi add cbpi4-PIDArduino
 
 cbpi >= 4.0.0.45 from my fork is required. The setup will check, if this repo is installed
 
