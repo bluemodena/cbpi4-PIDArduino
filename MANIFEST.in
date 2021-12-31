@@ -1,2 +1,1 @@
 include cbpi4-PIDArduino/config.yaml
-recursive-include cbpi4-PIDArduino/static

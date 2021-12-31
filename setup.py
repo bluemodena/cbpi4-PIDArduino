@@ -13,6 +13,7 @@ setup(name='cbpi4-PIDArduino',
       author='David Kelly',
       author_email='bluemodena@gmail.com',
       url='https://github.com/bluemodena/cbpi4-PIDArduino',
+      license='GPLv3',
       include_package_data=True,
       package_data={
 	      # If any package contains *.txt or *.rst files, include them:
@@ -20,7 +21,7 @@ setup(name='cbpi4-PIDArduino',
 	      'cbpi4-PIDArduino': ['*', '*.txt', '*.rst', '*.yaml']},
       packages=['cbpi4-PIDArduino'],
       install_requires=[
-	      'cbpi',
+	      'cbpi>=4.0.0.52',
       ],
       long_description=long_description,
       long_description_content_type='text/markdown'

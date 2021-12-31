@@ -146,3 +146,4 @@ def setup(cbpi):
 	'''
 
 	cbpi.plugin.register("PIDArduino", PIDArduino)
+	pass
