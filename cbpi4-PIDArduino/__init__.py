@@ -3,7 +3,6 @@ import logging
 import time
 
 from cbpi.api import *
-from modules.core.props import Property
 
 
 @parameters([Property.Number(label="P", configurable=True, description="P Value of PID"),
@@ -13,7 +12,6 @@ from modules.core.props import Property
                              description="PID Sample time in seconds. Default: 5 (How often is the output calculation done)"),
              Property.Number(label="Max_Output", configurable=True,
                              description="Power output of heater element [0-100].")])
-
 class PIDArduino(CBPiKettleLogic):
 	async def on_stop(self):
 		await self.actor_off(self.heater)
